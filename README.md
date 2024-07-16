@@ -1,3 +1,28 @@
+Project Structure
+
+movie-api/
+
+├── main.py               # FastAPI application setup
+
+├── database.py           # Database connection and setup
+
+├── crud.py               # CRUD operations for movies
+
+├── models.py             # SQLAlchemy models for movies, users, etc.
+
+├── auth.py               # Authentication and JWT handling
+
+├── schemas.py            # Pydantic schemas for request/response validation
+
+├── tests/
+
+│   ├── test_api.py       # Unit tests for API endpoints
+
+├── requirements.txt      # Dependencies
+
+├── README.md
+
+├── deployment/           # Deployment related files (using xxxxxx)
 
 # README.md
 
