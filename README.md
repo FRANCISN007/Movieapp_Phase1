@@ -1,17 +1,3 @@
-Project Structure
-movie-api/
-main.py FastAPI application setup
-database.py Database connection and setup
-crud.py CRUD operations for movies
-models.py SQLAlchemy models for movies, users, etc.
-auth.py Authentication and JWT handling
-schemas.py Pydantic schemas for request/response validation
-tests/
-test_api.py Unit tests for API endpoints
-requirements.txt Dependencies
-README.md
-deployment/Deployment related files (using xxxxxx)
-
 
 # README.md
 
@@ -35,13 +21,21 @@ Movie Creation:
 Creating a movie (authenticated users only): This endpoint allows only an authenticated user to create movie.
 this is an example of information needed for movie creation:
   "title": "Mission Impossible",
+  
   "description": "A movie full of suspense and romance",
+  
   "genres": "Action and comedy movie",
+  
   "writer": "Randy Don",
+  
   "director": "Willy Coke",
+  
   "cast": "James Bond",
+  
   "language": "English",
+  
   "Runtime": "2hr.30mins",
+  
   "year_released": 2010,
 
 Movie ID: (Auto creation) A unique identifier for each movie in the database.
